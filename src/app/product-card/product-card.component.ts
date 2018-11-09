@@ -7,6 +7,7 @@ import { FetchdataService } from "../fetchdata.service";
   styleUrls: ["./product-card.component.scss"],
   providers: [FetchdataService]
 })
+
 export class ProductCardComponent implements OnInit {
   posts = [""];
   title = "Angular HttpClient";
